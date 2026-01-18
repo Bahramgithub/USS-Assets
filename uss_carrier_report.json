@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-01-18T22:21:50.205738",
+  "total_carriers": 11,
+  "all_deployments": [
+    {
+      "vessel": "USS Gerald R. Ford",
+      "status": "Deployed to Mediterranean",
+      "last_update": "2024-01-15",
+      "region": "Europe/Mediterranean"
+    },
+    {
+      "vessel": "USS Dwight D. Eisenhower",
+      "status": "Operating in Red Sea region",
+      "last_update": "2024-01-10",
+      "region": "Middle East"
+    }
+  ],
+  "middle_east_deployments": [
+    {
+      "vessel": "USS Gerald R. Ford",
+      "status": "Deployed to Mediterranean",
+      "last_update": "2024-01-15",
+      "region": "Europe/Mediterranean"
+    },
+    {
+      "vessel": "USS Dwight D. Eisenhower",
+      "status": "Operating in Red Sea region",
+      "last_update": "2024-01-10",
+      "region": "Middle East"
+    }
+  ],
+  "data_sources": [
+    "US Navy Public Affairs",
+    "Defense News",
+    "Public Maritime Tracking"
+  ],
+  "disclaimer": "This data is from public sources only. Actual military positions are classified."
+}

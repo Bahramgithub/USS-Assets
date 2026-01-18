@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-01-18T22:39:11.377554",
+  "map_file": "uss_carrier_map.html",
+  "carriers": [
+    {
+      "name": "USS Gerald R. Ford",
+      "position": [
+        35.2,
+        33.1
+      ],
+      "course": 90,
+      "speed": 18.5,
+      "target_region": "Middle East"
+    },
+    {
+      "name": "USS Nimitz",
+      "position": [
+        26.8,
+        50.3
+      ],
+      "course": 270,
+      "speed": 18.5,
+      "target_region": "Middle East"
+    },
+    {
+      "name": "USS Eisenhower",
+      "position": [
+        20.5,
+        40.2
+      ],
+      "course": 180,
+      "speed": 18.5,
+      "target_region": "Other Operations"
+    },
+    {
+      "name": "USS Abraham Lincoln",
+      "position": [
+        1.3,
+        103.8
+      ],
+      "course": 225,
+      "speed": 18.5,
+      "target_region": "Indian Ocean"
+    },
+    {
+      "name": "USS Carl Vinson",
+      "position": [
+        35.7,
+        139.7
+      ],
+      "course": 180,
+      "speed": 18.5,
+      "target_region": "Other Operations"
+    },
+    {
+      "name": "USS Theodore Roosevelt",
+      "position": [
+        21.3,
+        -157.8
+      ],
+      "course": 270,
+      "speed": 18.5,
+      "target_region": "Indian Ocean"
+    }
+  ],
+  "strategic_deployments": {
+    "middle_east": [
+      {
+        "name": "USS Gerald R. Ford",
+        "position": [
+          35.2,
+          33.1
+        ],
+        "course": 90,
+        "speed": 18.5,
+        "target_region": "Middle East"
+      },
+      {
+        "name": "USS Nimitz",
+        "position": [
+          26.8,
+          50.3
+        ],
+        "course": 270,
+        "speed": 18.5,
+        "target_region": "Middle East"
+      }
+    ],
+    "indian_ocean": [
+      {
+        "name": "USS Abraham Lincoln",
+        "position": [
+          1.3,
+          103.8
+        ],
+        "course": 225,
+        "speed": 18.5,
+        "target_region": "Indian Ocean"
+      },
+      {
+        "name": "USS Theodore Roosevelt",
+        "position": [
+          21.3,
+          -157.8
+        ],
+        "course": 270,
+        "speed": 18.5,
+        "target_region": "Indian Ocean"
+      }
+    ],
+    "east_asia": []
+  },
+  "api_source": "MarineTraffic",
+  "disclaimer": "Military vessels may not broadcast AIS data for security reasons"
+}

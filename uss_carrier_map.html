@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8b97e6ed7b57bd9de168b41976df977e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8b97e6ed7b57bd9de168b41976df977e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8b97e6ed7b57bd9de168b41976df977e = L.map(
+                "map_8b97e6ed7b57bd9de168b41976df977e",
+                {
+                    center: [15.0, 80.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6f0e2586ad343517584e02c56c51cb7b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6f0e2586ad343517584e02c56c51cb7b.addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var rectangle_4a24c9aec3a3977cad65bfa5b14f7ab2 = L.rectangle(
+                [[12.0, 25.0], [40.0, 65.0]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+        var popup_ae5fe7f5e50308ac156b76e569546f1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1d32a5a9334e234ab15a39b9b115a45 = $(`<div id="html_e1d32a5a9334e234ab15a39b9b115a45" style="width: 100.0%; height: 100.0%;">Middle East Region of Interest</div>`)[0];
+                popup_ae5fe7f5e50308ac156b76e569546f1b.setContent(html_e1d32a5a9334e234ab15a39b9b115a45);
+            
+        
+
+        rectangle_4a24c9aec3a3977cad65bfa5b14f7ab2.bindPopup(popup_ae5fe7f5e50308ac156b76e569546f1b)
+        ;
+
+        
+    
+    
+            var rectangle_9b679287e77cb835fbcf367b82df8567 = L.rectangle(
+                [[-40.0, 40.0], [25.0, 100.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+        var popup_b289942a10c7c66f5c71dbbab4550a5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0479eb495567fb8ee25ede41f98612db = $(`<div id="html_0479eb495567fb8ee25ede41f98612db" style="width: 100.0%; height: 100.0%;">Indian Ocean Region of Interest</div>`)[0];
+                popup_b289942a10c7c66f5c71dbbab4550a5d.setContent(html_0479eb495567fb8ee25ede41f98612db);
+            
+        
+
+        rectangle_9b679287e77cb835fbcf367b82df8567.bindPopup(popup_b289942a10c7c66f5c71dbbab4550a5d)
+        ;
+
+        
+    
+    
+            var rectangle_31b03a6686110adb4d520bed0e5a6c43 = L.rectangle(
+                [[0.0, 100.0], [50.0, 150.0]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+        var popup_91a1f2c7d05c8597ff0e88dc90bf49e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f10be2be835d183bb2d7563d3153cf7a = $(`<div id="html_f10be2be835d183bb2d7563d3153cf7a" style="width: 100.0%; height: 100.0%;">East Asia/Western Pacific Region of Interest</div>`)[0];
+                popup_91a1f2c7d05c8597ff0e88dc90bf49e3.setContent(html_f10be2be835d183bb2d7563d3153cf7a);
+            
+        
+
+        rectangle_31b03a6686110adb4d520bed0e5a6c43.bindPopup(popup_91a1f2c7d05c8597ff0e88dc90bf49e3)
+        ;
+
+        
+    
+    
+            var marker_92782b75a216553f57076da71372c9e3 = L.marker(
+                [35.2, 33.1],
+                {
+}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var icon_ebe8e5ccd3a0098407ea8204062d8912 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "ship",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bccd4c0b197b0a17be2aaf04b3b0fbcc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_749edc2c0d0167626e0c7b5c4a8be502 = $(`<div id="html_749edc2c0d0167626e0c7b5c4a8be502" style="width: 100.0%; height: 100.0%;">                 <b>USS Gerald R. Ford</b><br>                 Position: 35.200, 33.100<br>                 Course: 90° →<br>                 Speed: 18.5 knots<br>                 Target Region: Middle East<br>                 Last Update: 2026-01-18T22:39:11                 </div>`)[0];
+                popup_bccd4c0b197b0a17be2aaf04b3b0fbcc.setContent(html_749edc2c0d0167626e0c7b5c4a8be502);
+            
+        
+
+        marker_92782b75a216553f57076da71372c9e3.bindPopup(popup_bccd4c0b197b0a17be2aaf04b3b0fbcc)
+        ;
+
+        
+    
+    
+            marker_92782b75a216553f57076da71372c9e3.bindTooltip(
+                `<div>
+                     USS Gerald R. Ford →
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_92782b75a216553f57076da71372c9e3.setIcon(icon_ebe8e5ccd3a0098407ea8204062d8912);
+            
+    
+            var poly_line_f0754167ecce78517c255b5815847015 = L.polyline(
+                [[35.2, 33.1], [35.2, 36.1]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var marker_bb91718cad49780437cdd75d623c65af = L.marker(
+                [26.8, 50.3],
+                {
+}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var icon_4d3c83330b63187c4620f6bdcbbd3d4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "ship",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42f672b3299f82051a66992f2585f4de = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_63846632b1c886c4d8e6068b9fb449ed = $(`<div id="html_63846632b1c886c4d8e6068b9fb449ed" style="width: 100.0%; height: 100.0%;">                 <b>USS Nimitz</b><br>                 Position: 26.800, 50.300<br>                 Course: 270° ←<br>                 Speed: 18.5 knots<br>                 Target Region: Middle East<br>                 Last Update: 2026-01-18T22:39:11                 </div>`)[0];
+                popup_42f672b3299f82051a66992f2585f4de.setContent(html_63846632b1c886c4d8e6068b9fb449ed);
+            
+        
+
+        marker_bb91718cad49780437cdd75d623c65af.bindPopup(popup_42f672b3299f82051a66992f2585f4de)
+        ;
+
+        
+    
+    
+            marker_bb91718cad49780437cdd75d623c65af.bindTooltip(
+                `<div>
+                     USS Nimitz ←
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bb91718cad49780437cdd75d623c65af.setIcon(icon_4d3c83330b63187c4620f6bdcbbd3d4c);
+            
+    
+            var poly_line_669ebac1d8069e0a268d5b7b0f6c0e96 = L.polyline(
+                [[26.8, 50.3], [26.8, 47.3]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var marker_fd3c79dc218e3de2ff1d64358152d4e2 = L.marker(
+                [20.5, 40.2],
+                {
+}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var icon_0b7db61240917d05362e391a87aa6539 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "ship",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6b7d5966e09eed3ef0128cf57975bc4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_547c02490f7379ffda5869c3cb7242fb = $(`<div id="html_547c02490f7379ffda5869c3cb7242fb" style="width: 100.0%; height: 100.0%;">                 <b>USS Eisenhower</b><br>                 Position: 20.500, 40.200<br>                 Course: 180° ↓<br>                 Speed: 18.5 knots<br>                 Target Region: Other Operations<br>                 Last Update: 2026-01-18T22:39:11                 </div>`)[0];
+                popup_f6b7d5966e09eed3ef0128cf57975bc4.setContent(html_547c02490f7379ffda5869c3cb7242fb);
+            
+        
+
+        marker_fd3c79dc218e3de2ff1d64358152d4e2.bindPopup(popup_f6b7d5966e09eed3ef0128cf57975bc4)
+        ;
+
+        
+    
+    
+            marker_fd3c79dc218e3de2ff1d64358152d4e2.bindTooltip(
+                `<div>
+                     USS Eisenhower ↓
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fd3c79dc218e3de2ff1d64358152d4e2.setIcon(icon_0b7db61240917d05362e391a87aa6539);
+            
+    
+            var poly_line_da6a5bbc62b2a3eab1e787efdd71b5bf = L.polyline(
+                [[20.5, 40.2], [17.5, 40.2]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var marker_9c6c9cd989846353e9263acff9583e99 = L.marker(
+                [1.3, 103.8],
+                {
+}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var icon_25eacc468477fba222e5142b7768ae9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "ship",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5aff942156c0f8dfc6d52f0c0235fcce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d16b130ead4e201370a0e6de5ae19e0d = $(`<div id="html_d16b130ead4e201370a0e6de5ae19e0d" style="width: 100.0%; height: 100.0%;">                 <b>USS Abraham Lincoln</b><br>                 Position: 1.300, 103.800<br>                 Course: 225° ↙<br>                 Speed: 18.5 knots<br>                 Target Region: Indian Ocean<br>                 Last Update: 2026-01-18T22:39:11                 </div>`)[0];
+                popup_5aff942156c0f8dfc6d52f0c0235fcce.setContent(html_d16b130ead4e201370a0e6de5ae19e0d);
+            
+        
+
+        marker_9c6c9cd989846353e9263acff9583e99.bindPopup(popup_5aff942156c0f8dfc6d52f0c0235fcce)
+        ;
+
+        
+    
+    
+            marker_9c6c9cd989846353e9263acff9583e99.bindTooltip(
+                `<div>
+                     USS Abraham Lincoln ↙
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9c6c9cd989846353e9263acff9583e99.setIcon(icon_25eacc468477fba222e5142b7768ae9d);
+            
+    
+            var poly_line_7da2079542c5750511570ba28f13bf03 = L.polyline(
+                [[1.3, 103.8], [-0.8213203435596428, 101.67867965644035]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var marker_435d7c53b1fd246b30e97f4fa88296c6 = L.marker(
+                [35.7, 139.7],
+                {
+}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var icon_c555e44303268ab898ad3496a0855372 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "ship",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e84bdfc3dd3c224a54b6451552e3aec6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_68e63026e837f34a9ffc8470b7fa2add = $(`<div id="html_68e63026e837f34a9ffc8470b7fa2add" style="width: 100.0%; height: 100.0%;">                 <b>USS Carl Vinson</b><br>                 Position: 35.700, 139.700<br>                 Course: 180° ↓<br>                 Speed: 18.5 knots<br>                 Target Region: Other Operations<br>                 Last Update: 2026-01-18T22:39:11                 </div>`)[0];
+                popup_e84bdfc3dd3c224a54b6451552e3aec6.setContent(html_68e63026e837f34a9ffc8470b7fa2add);
+            
+        
+
+        marker_435d7c53b1fd246b30e97f4fa88296c6.bindPopup(popup_e84bdfc3dd3c224a54b6451552e3aec6)
+        ;
+
+        
+    
+    
+            marker_435d7c53b1fd246b30e97f4fa88296c6.bindTooltip(
+                `<div>
+                     USS Carl Vinson ↓
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_435d7c53b1fd246b30e97f4fa88296c6.setIcon(icon_c555e44303268ab898ad3496a0855372);
+            
+    
+            var poly_line_ed163d95adb9f5171b4123c70232b98e = L.polyline(
+                [[35.7, 139.7], [32.7, 139.7]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var marker_aa503d78e97237fe304426ddbe6655fb = L.marker(
+                [21.3, -157.8],
+                {
+}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+    
+            var icon_f97d58dec5de1cc4ed29c60cb8044e27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "ship",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65afa473587399b7c440514fe6e6dc98 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f50f1baa9783dc66d6a4d4242962cf5 = $(`<div id="html_3f50f1baa9783dc66d6a4d4242962cf5" style="width: 100.0%; height: 100.0%;">                 <b>USS Theodore Roosevelt</b><br>                 Position: 21.300, -157.800<br>                 Course: 270° ←<br>                 Speed: 18.5 knots<br>                 Target Region: Indian Ocean<br>                 Last Update: 2026-01-18T22:39:11                 </div>`)[0];
+                popup_65afa473587399b7c440514fe6e6dc98.setContent(html_3f50f1baa9783dc66d6a4d4242962cf5);
+            
+        
+
+        marker_aa503d78e97237fe304426ddbe6655fb.bindPopup(popup_65afa473587399b7c440514fe6e6dc98)
+        ;
+
+        
+    
+    
+            marker_aa503d78e97237fe304426ddbe6655fb.bindTooltip(
+                `<div>
+                     USS Theodore Roosevelt ←
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_aa503d78e97237fe304426ddbe6655fb.setIcon(icon_f97d58dec5de1cc4ed29c60cb8044e27);
+            
+    
+            var poly_line_44efda0c287fb3b2bd00441600c4133c = L.polyline(
+                [[21.3, -157.8], [21.3, -160.8]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b97e6ed7b57bd9de168b41976df977e);
+        
+</script>
+</html>

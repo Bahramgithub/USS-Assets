@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-01-18T22:22:00.787612",
+  "carrier_strike_groups": {
+    "USS Gerald R. Ford (CVN-78)": "Atlantic/Mediterranean",
+    "USS George H.W. Bush (CVN-77)": "Atlantic/Mediterranean",
+    "USS Harry S. Truman (CVN-75)": "Atlantic/Mediterranean",
+    "USS Dwight D. Eisenhower (CVN-69)": "Middle East/Red Sea",
+    "USS Abraham Lincoln (CVN-72)": "Pacific/Indo-Pacific",
+    "USS Carl Vinson (CVN-70)": "Pacific/Indo-Pacific",
+    "USS Theodore Roosevelt (CVN-71)": "Pacific/Indo-Pacific",
+    "USS Ronald Reagan (CVN-76)": "Japan/Western Pacific"
+  },
+  "recent_news": [],
+  "middle_east_focus": [],
+  "intelligence_summary": "No recent public reports of carrier operations in Middle East region",
+  "data_disclaimer": "Based on publicly available information only"
+}
