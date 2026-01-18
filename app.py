@@ -1,5 +1,5 @@
-from flask import Flask, render_template, jsonify, send_from_directory
 import os
+from flask import Flask, render_template, jsonify, send_from_directory
 import json
 from visual_tracker import VisualCarrierTracker
 
@@ -16,7 +16,8 @@ def map_view():
 @app.route('/api/update')
 def update_positions():
     """API endpoint to refresh carrier positions"""
-    tracker = VisualCarrierTracker()
+    api_key = os.environ.get('MARINETRAFFIC_API_KEY')
+    tracker = VisualCarrierTracker(api_key=api_key)
     report = tracker.generate_map_report()
     return jsonify(report)
 
@@ -32,7 +33,8 @@ def get_status():
 
 if __name__ == '__main__':
     # Generate initial map
-    tracker = VisualCarrierTracker()
+    api_key = os.environ.get('MARINETRAFFIC_API_KEY')
+    tracker = VisualCarrierTracker(api_key=api_key)
     tracker.generate_map_report()
     
     port = int(os.environ.get('PORT', 5000))
